@@ -102,4 +102,86 @@ The Book and Library Management System manages book details and their availabili
 
 ---
 
+## 6. Hospital Patient Management System
+
+### Description
+The Hospital Patient Management System manages patient IDs and tracks the total number of patients.
+
+### Class Structure
+
+#### PatientManager Class
+- **Attributes:**
+  - `patientIDs[]`: Array of integers to store patient IDs
+  - `totalPatients`: Integer to keep track of the total number of patients
+
+#### Methods
+- `addPatient(int patientID)`: Adds a new patient ID to the system.
+  - Parameter: `patientID` (integer) - ID of the patient to be added.
+- `displayPatients()`: Displays the list of patient IDs.
+
+---
+
+## 7. Sports Club Membership System
+
+### Description
+The Sports Club Membership System manages member IDs and tracks the total number of members.
+
+### Class Structure
+
+#### MembershipSystem Class
+- **Attributes:**
+  - `memberIDs[]`: Array of strings to store member IDs
+  - `totalMembers`: Integer to keep track of the total number of members
+
+#### Methods
+- `registerMember(string memberID)`: Registers a new member ID in the sports club.
+  - Parameter: `memberID` (string) - ID of the member to be registered.
+- `displayMembers()`: Displays the list of registered member IDs.
+
+---
+
+## 8. University Course Management System
+
+### Description
+The University Course Management System manages course details and instructors.
+
+### Class Structure
+
+#### Course Class
+- **Attributes:**
+  - `courseCode`: string - Code representing the course
+  - `courseName`: string - Name of the course
+  - `instructor`: string - Name of the instructor teaching the course
+
+#### Methods
+- `setCourseDetails(string code, string name, string instructor)`: Sets course details.
+  - Parameters: `code` (string) - Course code.
+  - `name` (string) - Course name.
+  - `instructor` (string) - Instructor's name.
+- `displayCourses()`: Displays available courses in the university.
+
+---
+
+## 9. Online Shopping Cart Management
+
+### Description
+The Online Shopping Cart Management System manages items in an online shopping cart.
+
+### Class Structure
+
+#### OnlineShoppingCart Class
+- **Attributes:**
+  - `itemName`: string - Name of the item in the cart
+  - `price`: float - Price of the item
+  - `quantity`: integer - Quantity of the item
+
+#### Methods
+- `addItemToCart(string name, float price, int quantity)`: Adds an item to the cart.
+  - Parameters: `name` (string) - Name of the item.
+  - `price` (float) - Price of the item.
+  - `quantity` (int) - Quantity of the item.
+- `displayCartItems()`: Displays items in the online shopping cart.
+
+---
+
 Feel free to explore the implementations within this repository and use these procedures as references or templates for your projects! 🚀
