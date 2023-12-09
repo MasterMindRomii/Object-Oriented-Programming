@@ -181,7 +181,7 @@ The Online Shopping Cart Management System manages items in an online shopping c
   - `price` (float) - Price of the item.
   - `quantity` (int) - Quantity of the item.
 - `displayCartItems()`: Displays items in the online shopping cart.
-
----
+- 
+--- many more is done but details are not updated
 
 Feel free to explore the implementations within this repository and use these procedures as references or templates for your projects! 🚀
