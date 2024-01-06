@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-inline int cube(int a)
+inline int cube(int a )
 {
     return a * a * a;
 }
