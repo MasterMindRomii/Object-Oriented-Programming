@@ -19,7 +19,16 @@ public:
     }
 };
 
-class SubDerived : public multiple, public derived
+class SubDerived : public multiple
+{
+    public:
+    void SubDerived()
+    {
+        cout << "Derived From Multiple Function" << endl;
+    }
+};
+
+class SubSubderived : public SubDerived,  public derived
 {
 };
 

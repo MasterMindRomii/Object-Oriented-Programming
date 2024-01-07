@@ -22,14 +22,14 @@ public:
     }
 };
 
-class SubSubDerived : public SubDerived {
+class SubSubDerived : public SubDerived,public Derived {
 public:
     void subSubDerivedFunction() {
         cout << "Function in SubSubDerived Class" << endl;
     }
 };
 
-class SubSubSubDerived : public SubSubDerived {
+class SubSubSubDerived : public SubSubDerived, public SubDerived {
 public:
     void subSubSubDerivedFunction() {
         cout << "Function in SubSubSubDerived Class" << endl;
